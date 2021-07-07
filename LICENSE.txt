@@ -1,5 +1,6 @@
 MIT License
 
+Based on Work by:
 Copyright (c) Austin Traver <licensing@austin.jp> (https://github.com/austintraver)
 
 Permission is hereby granted, free of charge, to any person obtaining a

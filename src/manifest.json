@@ -1,0 +1,32 @@
+{
+  "name": "Merge All Windows",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "minimum_chrome_version": "80",
+  "author": "Selfish",
+  "description": "Merge all windows into one - free and private!",
+  "homepage_url": "https://github.com/selfish/window-merge-extension",
+  "icons": {
+    "128": "128.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_title": "Merge All Windows",
+    "default_icon": "128.png"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+K",
+        "mac": "MacCtrl+Shift+K"
+      }
+    }
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}

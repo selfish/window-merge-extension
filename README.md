@@ -1,6 +1,9 @@
-# Merge All Windows
+# Window Merge Browser Extension
 
-Addon to replicate the Safari 'Merge All Windows' menu command
+
+
+Based on previous work by:
+Copyright (c) Austin Traver <licensing@austin.jp> (https://github.com/austintraver)
 
 ## Installation
 
