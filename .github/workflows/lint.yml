@@ -18,4 +18,5 @@ jobs:
         with:
           cmd: lint
           source: src
+          verbose: true
           channel: listed

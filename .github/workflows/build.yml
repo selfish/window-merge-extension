@@ -13,12 +13,14 @@ jobs:
       - name: "Checkout"
         uses: actions/checkout@v1
 
-      - name: "web-ext build"
+      - name: "Build with web-ext"
         id: web-ext-build
         uses: kewisch/action-web-ext@v1
         with:
           cmd: build
           source: src
+          verbose: true
+          channel: listed
 
       - name: "Upload Artifact"
         uses: actions/upload-artifact@master
