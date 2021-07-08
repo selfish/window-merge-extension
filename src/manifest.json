@@ -1,6 +1,6 @@
 {
-  "name": "Merge All Windows",
   "version": "1.0.0",
+  "name": "Secure Merge Windows",
   "manifest_version": 2,
   "minimum_chrome_version": "80",
   "author": "Selfish",
