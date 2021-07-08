@@ -51,7 +51,7 @@ jobs:
         uses: trmcnvn/firefox-addon@v1
         with:
           uuid: ${{ secrets.FIREFOX_ADDON_UUID }}
-          xpi: ${{ steps.web-ext-build.outputs.target }}
+          xpi: ${{ steps.web-ext-sign.outputs.target }}
           manifest: src/manifest.json
           api-key: ${{ secrets.FIREFOX_API_KEY }}
           api-secret: ${{ secrets.FIREFOX_API_SECRET }}

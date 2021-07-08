@@ -28,5 +28,10 @@
     "scripts": [
       "background.js"
     ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{88b5d6cc-0a3f-4a24-9a98-4659a577102f}"
+    }
   }
 }
