@@ -1,8 +1,6 @@
 # Window Merge Browser Extension
 
-Based on previous work by:
-
-Copyright (c) Austin Traver <licensing@austin.jp> (https://github.com/austintraver)
+Based on previous work by Austin Traver <licensing@austin.jp> (https://github.com/austintraver)
 
 ## Installation
 
